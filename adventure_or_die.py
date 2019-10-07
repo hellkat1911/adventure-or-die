@@ -54,7 +54,7 @@ class DefinePlayer(Scene):
 
         name = input("> ")
 
-        print("Okay, %s. Press ANY KEY to begin." % name)
+        print("Okay, %s. Press ANY KEY to begin." % (name))
 
         ready = input("> ")
         if ready:
